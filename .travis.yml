@@ -25,7 +25,7 @@ before_script:
     # https://phpunit.de/supported-versions.html)
     - curl -sSfL -o ~/.phpenv/versions/$(phpenv version-name)/bin/phpunit https://phar.phpunit.de/phpunit-6.phar
     - phpunit --version
-    - nvm instal 12
+    - nvm install 12 --lts
     - npm install
 script:
     # linting is SUCH a low bar, but it is a bar!
